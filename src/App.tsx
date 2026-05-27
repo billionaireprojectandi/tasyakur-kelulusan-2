@@ -332,7 +332,7 @@ const runDownArr = [
     time: "10.50 - 10.55",
   },
   {
-    title: "Pengumuman penghargaan prestasi keagamaan, akademik, dan non akademik murid kelas IX angkatan 24 tahun pelajaran 2024/2025",
+    title: "Pengumuman penghargaan prestasi keagamaan, akademik, dan non akademik murid kelas IX angkatan 25 tahun pelajaran 2025/2026",
     time: "10.55 - 11.20",
   },
   {

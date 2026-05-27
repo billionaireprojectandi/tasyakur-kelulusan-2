@@ -19,7 +19,7 @@ function App() {
   }, [opened]);
   return (
     <>
-      {/* <audio src="/lagu.mp3" autoPlay={true} ref={audioRef} loop={true} /> */}
+      <audio src="/lagu.mp3" autoPlay={true} ref={audioRef} loop={true} />
       <Cover opened={opened} setOpened={setOpened} />
 
       {opened && (

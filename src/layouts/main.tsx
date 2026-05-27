@@ -42,7 +42,7 @@ const MainLayout = (props: Props) => {
                     className={twMerge(
                       "bg-gradient-to-t from-amber-600 to-amber-300 rounded w-full h-full p-2 fill-black stroke-black text-black flex justify-center items-center",
                       activeMenu === idx
-                        ? "fill-white stroke-white text-white bg-amber-600"
+                        ? "fill-amber-800 stroke-amber-800 text-amber-800 bg-amber-600"
                         : ""
                     )}
                     onClick={() => changeMenu(idx)}

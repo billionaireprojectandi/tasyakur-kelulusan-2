@@ -19,7 +19,7 @@ function App() {
   }, [opened]);
   return (
     <>
-      <audio src="/lagu.mp3" autoPlay={true} ref={audioRef} loop={true} />
+      {/* <audio src="/lagu.mp3" autoPlay={true} ref={audioRef} loop={true} /> */}
       <Cover opened={opened} setOpened={setOpened} />
 
       {opened && (
@@ -117,9 +117,9 @@ function Cover(props: CoverProps) {
                   direction={Direction.Down}
                   className="text-center text-black"
                 >
-                  <p className="">ANGKATAN XXIV</p>
+                  <p className="">ANGKATAN XXV</p>
                   <p className="">SMP ISLAM AL-AZHAR 10 KEMBANGAN</p>
-                  <p className="text-xs">Tahun Pelajaran 2024/2025</p>
+                  <p className="text-xs">Tahun Pelajaran 2025/2026</p>
                 </SlideComp>
                 <div className="w-7/12">
                   {param && (
@@ -145,9 +145,9 @@ function Cover(props: CoverProps) {
                   </button>
                 </SlideComp>
               </div>
-              <div className="w-32 absolute bottom-32 right-1/2 translate-x-1/2 translate-y-1/2">
+              <div className="w-24 absolute bottom-32 right-1/2 translate-x-1/2 translate-y-1/2">
                 <img
-                  src="/img/logo_angkatan.png"
+                  src="/img/logo_angkatan.jpeg"
                   alt="logo"
                   className="w-full h-full"
                 />
@@ -172,7 +172,7 @@ function Schedule() {
 
   const timer = () => {
     const countDate = DateTime.fromFormat(
-      "June 14 2025 07:00:00",
+      "June 06 2026 07:00:00",
       "LLLL dd yyyy HH:mm:ss",
       {
         zone: "Asia/Jakarta",
@@ -230,12 +230,12 @@ function Schedule() {
           <div className=" border-x-2 px-6 border-black">
             <div className="">
               <div>
-                <p className="font-semibold text-5xl">14</p>
+                <p className="font-semibold text-5xl">06</p>
               </div>
             </div>
             <div className="">
               <div>
-                <p>2025</p>
+                <p>2026</p>
               </div>
             </div>
           </div>
@@ -251,7 +251,7 @@ function Schedule() {
         <SlideComp direction={Direction.Up} className="text-sm text-center">
           <p>Dresscode murid:</p>
           <p>Putri: Kebaya Seragam</p>
-          <p>Putra: Jas Hitam, Kemeja Hitam, Dasi Seragam, Sepatu Pantofel</p>
+          <p>Putra: Jas Hitam, Kemeja Putih, Dasi Seragam, Sepatu Pantofel</p>
         </SlideComp>
       )}
       {/*{guru && (*/}
@@ -266,14 +266,6 @@ function Schedule() {
 }
 
 const runDownArr = [
-  {
-    title: "Registrasi",
-    time: "06.30 - 07.00"
-  },
-  {
-    title: "Pemutaran musik",
-    time: "07.00 - 07.10",
-  },
   {
     title: "Parade Guru dan Murid",
     time: "07.10 - 07.20",
@@ -311,8 +303,9 @@ const runDownArr = [
         "Perwakilan murid kelas IX SMP",
         "Perwakilan pengurus OSIS",
         "Ketua Jamiyyah SMPI Al Azhar 10 Kembangan",
-        "Perwakilan Kepala SMPIA10 periode …",
+        "Perwakilan Kepala SMPIA 10 periode …",
         "Ketua Yayasan Al Ikhwan Meruya",
+        "Pengawas Pendidikan Jakarta Barat 2",
         "Kepala Diratdikdasmen YPI Al Azhar",
         "Kepala Dinas Pendidikan Provinsi DKI Jakarta"
     ],
@@ -327,11 +320,11 @@ const runDownArr = [
     time: "10.15 - 10.20",
   },
   {
-    title: "Sambutan Perwakilan Orang tua Murid Kelas IX Angkatan 24 tahun 2024/2025",
+    title: "Sambutan Perwakilan Orang tua Murid Kelas IX Angkatan 25 tahun 2025/2026",
     time: "10.20 - 10.25",
   },
   {
-    title: ["Penampilan", "Tari Kreasi", "Penampilan alumni alba angkatan 24"],
+    title: ["Penampilan", "Tari Kreasi", "Penampilan alumni alba angkatan 25"],
     time: "10.25 - 10.50",
   },
   {
@@ -351,7 +344,7 @@ const runDownArr = [
     time: "11.30 - 11.45",
   },
   {
-    title: "Foto Bersama",
+    title: "Penutup",
     time: "11.45 - 12.00",
   },
 ];
@@ -417,7 +410,7 @@ function Maps() {
       </SlideComp>
       <SlideComp direction={Direction.Down} className="w-10/12">
         <p className="text-sm text-center">
-          Aula Kemala, Universitas Esa Unggul, Kebon Jeruk, Jakarta Barat
+          Gedung CNI, Puri Kembangan, Jakarta Barat
         </p>
       </SlideComp>
       {/*  */}
@@ -426,7 +419,7 @@ function Maps() {
         className="w-10/12 h-full border-2 border-violet-900 rounded-lg overflow-hidden"
       >
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15866.368374123405!2d106.7790606!3d-6.1853077!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6fbae909675%3A0x8dfe621fa81778c4!2sKemala%20Ballroom!5e0!3m2!1sid!2sid!4v1718768578480!5m2!1sid!2sid"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4186.048250714134!2d106.73777694112576!3d-6.191248295157963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f76b97172075%3A0x21fd5e11191f9839!2sCNI!5e0!3m2!1sen!2sid!4v1779854831316!5m2!1sen!2sid"
           width={350}
           height={350}
           // className="w-[80vw] h-full"
@@ -443,7 +436,7 @@ function Maps() {
           // href="https://goo.gl/maps/JTubxLm8Fcjesq5Q6"
           onClick={() =>
             window.open(
-              "https://maps.app.goo.gl/wNPHg9gzcg8SrqV87",
+              "https://maps.app.goo.gl/3Z4d5FBh9TRFjGBGA",
               // "https://goo.gl/maps/gGC6ZKKTNWfLTzsh7",
               "_blank",
               "noopener,noreferrer"
@@ -461,7 +454,7 @@ function Rules() {
   return (
     <div className="w-10/12 m-auto text-black">
       <SlideComp direction={Direction.Down} className="mb-6">
-        <p className="text-2xl text-center font-semibold">Rules</p>
+        <p className="text-2xl text-center font-semibold">Tata Tertib</p>
       </SlideComp>
       <SlideComp direction={Direction.Up}>
         <ul className="list-disc list-inside space-y-2 text-sm">

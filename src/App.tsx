@@ -479,9 +479,7 @@ function Closing() {
     <div className="text-black flex justify-center w-full">
       <SlideComp direction={Direction.Down} className="w-10/12">
         <p className="text-center leading-8 font-semibold text-xl ">
-          Ya Allah, berikanlah kemanfaatan atas semua hal yang telah Engkau
-          ajarkankepada kami. Dan ajarkanlah kami semua hal yang memberi manfaat
-          kepada kami, dan tambahlah kami ilmu.
+          Ya Allah, jadikanlah ilmu yang Engkau ajarkan kepada kami bermanfaat. Ajarkanlah kepada kami ilmu yang bermanfaat, dan tambahkanlah ilmu kepada kami.
         </p>
       </SlideComp>
     </div>

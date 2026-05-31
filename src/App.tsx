@@ -119,7 +119,7 @@ function Cover(props: CoverProps) {
                 >
                   <p className="">ANGKATAN XXV</p>
                   <p className="">SMP ISLAM AL-AZHAR 10 KEMBANGAN</p>
-                  <p className="text-xs">Tahun Pelajaran 2025/2026</p>
+                  <p className="text-xs">Tahun Ajaran 2025/2026</p>
                 </SlideComp>
                 <div className="w-7/12">
                   {param && (
@@ -332,7 +332,7 @@ const runDownArr = [
     time: "10.50 - 10.55",
   },
   {
-    title: "Pengumuman penghargaan prestasi keagamaan, akademik, dan non akademik murid kelas IX angkatan 25 tahun pelajaran 2025/2026",
+    title: "Pengumuman penghargaan prestasi keagamaan, akademik, dan non akademik murid kelas IX angkatan 25 tahun Ajaran 2025/2026",
     time: "10.55 - 11.20",
   },
   {
@@ -344,7 +344,7 @@ const runDownArr = [
     time: "11.30 - 11.45",
   },
   {
-    title: "Penutup",
+    title: ["Penutup", "Foto Bersama"],
     time: "11.45 - 12.00",
   },
 ];
